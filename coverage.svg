@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="724" viewBox="0 0 880 724" role="img" aria-labelledby="title desc">
+<title id="title">CrossTL coverage per language and direction</title>
+<desc id="desc">CUDA output 99.3 %, compile-only; CUDA input 84.8 %, compile-only; GLSL output 96.7 %, 339 executed; GLSL input 99.2 %, 339 executed; HIP output 98.9 %, compile-only; HIP input 89.4 %, compile-only; HLSL output 97.4 %, 345 executed; HLSL input 94.1 %, 346 executed; Metal output 92.1 %, 407 executed; Metal input 91.3 %, 421 executed; Mojo output 0.0 %, compile-only; Mojo input 0.0 %, compile-only; OpenCL C output not offered; OpenCL C input 49.7 %, compile-only; Rust output 0.0 %, 0 executed; Rust input 0.0 %, 0 executed; Slang output 79.0 %, 373 executed; Slang input 70.9 %, 351 executed; SPIR-V output 96.4 %, 364 executed; SPIR-V input 95.1 %, 357 executed; WebGL output 99.7 %, compile-only; WebGL input not offered; WGSL output 85.3 %, 281 executed; WGSL input not offered; CrossGL IR 89.0 %</desc>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;font-size:13px}
+.bg{fill:#ffffff;stroke:#d0d7de}.t{fill:#1f2328}.m{fill:#59636e}.rule{stroke:#d0d7de}.track{fill:#eff2f5}
+.output{fill:#0969da}.input{fill:#8250df}.ir{fill:#1a7f37}
+@media (prefers-color-scheme:dark){.bg{fill:#0d1117;stroke:#3d444d}.t{fill:#f0f6fc}.m{fill:#9198a1}.rule{stroke:#3d444d}.track{fill:#262c36}.output{fill:#4493f8}.input{fill:#ab7df8}.ir{fill:#3fb950}}</style>
+<rect x="0.5" y="0.5" width="879" height="723" rx="6" class="bg"/>
+<text x="20" y="30" class="t">CrossTL coverage</text>
+<text x="860" y="30" class="m" text-anchor="end">7f0f489 · 2026-11-14</text>
+<text x="20" y="58" class="t">CUDA</text>
+<text x="100" y="58" class="m">output</text>
+<rect x="190" y="48" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="48" width="337.6" height="12" rx="2" class="output"/>
+<text x="540" y="58" class="t">99.3 %</text>
+<text x="600" y="58" class="m">665 of 670</text>
+<text x="770" y="58" class="m">compile-only</text>
+<text x="100" y="82" class="m">input</text>
+<rect x="190" y="72" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="72" width="288.3" height="12" rx="2" class="input"/>
+<text x="540" y="82" class="t">84.8 %</text>
+<text x="600" y="82" class="m">568 of 670</text>
+<text x="770" y="82" class="m">compile-only</text>
+<text x="20" y="106" class="t">GLSL</text>
+<text x="100" y="106" class="m">output</text>
+<rect x="190" y="96" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="96" width="328.8" height="12" rx="2" class="output"/>
+<text x="540" y="106" class="t">96.7 %</text>
+<text x="600" y="106" class="m">505 of 522</text>
+<text x="770" y="106" class="m">339 executed</text>
+<text x="100" y="130" class="m">input</text>
+<rect x="190" y="120" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="120" width="337.3" height="12" rx="2" class="input"/>
+<text x="540" y="130" class="t">99.2 %</text>
+<text x="600" y="130" class="m">518 of 522</text>
+<text x="770" y="130" class="m">339 executed</text>
+<text x="20" y="154" class="t">HIP</text>
+<text x="100" y="154" class="m">output</text>
+<rect x="190" y="144" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="144" width="336.3" height="12" rx="2" class="output"/>
+<text x="540" y="154" class="t">98.9 %</text>
+<text x="600" y="154" class="m">548 of 554</text>
+<text x="770" y="154" class="m">compile-only</text>
+<text x="100" y="178" class="m">input</text>
+<rect x="190" y="168" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="168" width="304" height="12" rx="2" class="input"/>
+<text x="540" y="178" class="t">89.4 %</text>
+<text x="600" y="178" class="m">495 of 554</text>
+<text x="770" y="178" class="m">compile-only</text>
+<text x="20" y="202" class="t">HLSL</text>
+<text x="100" y="202" class="m">output</text>
+<rect x="190" y="192" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="192" width="331.2" height="12" rx="2" class="output"/>
+<text x="540" y="202" class="t">97.4 %</text>
+<text x="600" y="202" class="m">797 of 818, 11 untested</text>
+<text x="770" y="202" class="m">345 executed</text>
+<text x="100" y="226" class="m">input</text>
+<rect x="190" y="216" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="216" width="319.9" height="12" rx="2" class="input"/>
+<text x="540" y="226" class="t">94.1 %</text>
+<text x="600" y="226" class="m">770 of 818, 11 untested</text>
+<text x="770" y="226" class="m">346 executed</text>
+<text x="20" y="250" class="t">Metal</text>
+<text x="100" y="250" class="m">output</text>
+<rect x="190" y="240" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="240" width="313.1" height="12" rx="2" class="output"/>
+<text x="540" y="250" class="t">92.1 %</text>
+<text x="600" y="250" class="m">498 of 541</text>
+<text x="770" y="250" class="m">407 executed</text>
+<text x="100" y="274" class="m">input</text>
+<rect x="190" y="264" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="264" width="310.4" height="12" rx="2" class="input"/>
+<text x="540" y="274" class="t">91.3 %</text>
+<text x="600" y="274" class="m">494 of 541</text>
+<text x="770" y="274" class="m">421 executed</text>
+<text x="20" y="298" class="t">Mojo</text>
+<text x="100" y="298" class="m">output</text>
+<rect x="190" y="288" width="340" height="12" rx="2" class="track"/>
+<text x="540" y="298" class="t">0.0 %</text>
+<text x="600" y="298" class="m">0 of 267</text>
+<text x="770" y="298" class="m">compile-only</text>
+<text x="100" y="322" class="m">input</text>
+<rect x="190" y="312" width="340" height="12" rx="2" class="track"/>
+<text x="540" y="322" class="t">0.0 %</text>
+<text x="600" y="322" class="m">0 of 267</text>
+<text x="770" y="322" class="m">compile-only</text>
+<text x="20" y="346" class="t">OpenCL C</text>
+<text x="100" y="346" class="m">output</text>
+<text x="190" y="346" class="m">not offered: CrossTL has no OpenCL C generator</text>
+<text x="100" y="370" class="m">input</text>
+<rect x="190" y="360" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="360" width="169" height="12" rx="2" class="input"/>
+<text x="540" y="370" class="t">49.7 %</text>
+<text x="600" y="370" class="m">363 of 730</text>
+<text x="770" y="370" class="m">compile-only</text>
+<text x="20" y="394" class="t">Rust</text>
+<text x="100" y="394" class="m">output</text>
+<rect x="190" y="384" width="340" height="12" rx="2" class="track"/>
+<text x="540" y="394" class="t">0.0 %</text>
+<text x="600" y="394" class="m">0 of 630, 3 untested</text>
+<text x="770" y="394" class="m">0 executed</text>
+<text x="100" y="418" class="m">input</text>
+<rect x="190" y="408" width="340" height="12" rx="2" class="track"/>
+<text x="540" y="418" class="t">0.0 %</text>
+<text x="600" y="418" class="m">0 of 629, 4 untested</text>
+<text x="770" y="418" class="m">0 executed</text>
+<text x="20" y="442" class="t">Slang</text>
+<text x="100" y="442" class="m">output</text>
+<rect x="190" y="432" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="432" width="268.6" height="12" rx="2" class="output"/>
+<text x="540" y="442" class="t">79.0 %</text>
+<text x="600" y="442" class="m">546 of 691, 13 untested</text>
+<text x="770" y="442" class="m">373 executed</text>
+<text x="100" y="466" class="m">input</text>
+<rect x="190" y="456" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="456" width="241.1" height="12" rx="2" class="input"/>
+<text x="540" y="466" class="t">70.9 %</text>
+<text x="600" y="466" class="m">490 of 691, 13 untested</text>
+<text x="770" y="466" class="m">351 executed</text>
+<text x="20" y="490" class="t">SPIR-V</text>
+<text x="100" y="490" class="m">output</text>
+<rect x="190" y="480" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="480" width="327.8" height="12" rx="2" class="output"/>
+<text x="540" y="490" class="t">96.4 %</text>
+<text x="600" y="490" class="m">505 of 524, 3 untested</text>
+<text x="770" y="490" class="m">364 executed</text>
+<text x="100" y="514" class="m">input</text>
+<rect x="190" y="504" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="504" width="323.3" height="12" rx="2" class="input"/>
+<text x="540" y="514" class="t">95.1 %</text>
+<text x="600" y="514" class="m">500 of 526, 1 untested</text>
+<text x="770" y="514" class="m">357 executed</text>
+<text x="20" y="538" class="t">WebGL</text>
+<text x="100" y="538" class="m">output</text>
+<rect x="190" y="528" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="528" width="339" height="12" rx="2" class="output"/>
+<text x="540" y="538" class="t">99.7 %</text>
+<text x="600" y="538" class="m">297 of 298</text>
+<text x="770" y="538" class="m">compile-only</text>
+<text x="100" y="562" class="m">input</text>
+<text x="190" y="562" class="m">not offered: CrossTL has no WebGL source frontend</text>
+<text x="20" y="586" class="t">WGSL</text>
+<text x="100" y="586" class="m">output</text>
+<rect x="190" y="576" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="576" width="290" height="12" rx="2" class="output"/>
+<text x="540" y="586" class="t">85.3 %</text>
+<text x="600" y="586" class="m">343 of 402, 1 untested</text>
+<text x="770" y="586" class="m">281 executed</text>
+<text x="100" y="610" class="m">input</text>
+<text x="190" y="610" class="m">not offered: CrossTL has no WGSL source frontend</text>
+<line x1="20" y1="622" x2="860" y2="622" class="rule"/>
+<text x="20" y="648" class="t">CrossGL IR</text>
+<text x="100" y="648" class="m">expressive</text>
+<rect x="190" y="638" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="638" width="302.6" height="12" rx="2" class="ir"/>
+<text x="540" y="648" class="t">89.0 %</text>
+<text x="600" y="648" class="m">1333 of 1497, 24 untested</text>
+<text x="20" y="692" class="m">Score = supported / (supported + refused + wrong), per generated probe validated by the reference tool.</text>
+<text x="20" y="710" class="m">Executed compute probes also ran on the GPU or Mesa's software drivers; a compile-only language has no runtime.</text>
+</svg>
